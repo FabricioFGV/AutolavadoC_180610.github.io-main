@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #616161;
+    background-color: rgb(45, 66, 99);
 }
 
 .sidebar {
@@ -17,7 +17,7 @@ body {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: rgb(25, 14, 88);
+    background-color: #191919;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -27,7 +27,7 @@ body {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: #249dbb;
+    color: white;
     display: block;
     transition: 0.3s;
 }
@@ -49,20 +49,18 @@ body {
     margin: 1%;
     font-size: 20px;
     cursor: pointer;
-    background-color: rgb(25, 14, 88);
+    background-color: #111;
     color: white;
     padding: 10px 15px;
     border: none;
     margin-right: 90%;
     min-width: 200px;
-    width: 100%;
 
 }
 
 .openbtn:hover {
-    background-color: #d8a639;
+    background-color: #C84B31;
 }
-
 
 
 .sidebar .profile {
@@ -128,9 +126,6 @@ body {
     color: rgb(0, 0, 0);
 }
 
-.main{
-    background-color: #616161;
-}
 
 #main {
     transition: margin-left .5s;
@@ -143,16 +138,20 @@ body {
     width: auto;
     margin-left: 250px;
     color: #000000;
-    background-color: #616161;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.301), rgba(255, 255, 255, 0.596)), url(../img/Wallpaper.jpg);
 }
 
 #main .tituloprincipal {
-    padding-top: 25px;
+    border-radius: 30px;
+    text-align: center;
+    padding-top: 5px;
     padding-bottom: 0px;
-    color: #000000;
+    color: #666666;
     min-height: 20px;
     font-style: bold;
     display: inline-block;
+    line-height: 20px;
+  height: 100%;
 }
 
 .targ {
@@ -229,7 +228,7 @@ body {
 }
 
 .targ2 img {
-    width: 90px;
+    width: 150px;
     float: left;
 }
 
@@ -285,7 +284,7 @@ body {
 
 .FormCliente form {
     padding-top: 2vw;
-    box-shadow: 1px 1px 10px 1px #160244;
+    box-shadow: 1px 1px 10px 1px #2D4263;
     min-height: 32px;
     min-width: 310px;
     
@@ -296,12 +295,13 @@ body {
     font-size: 100%;
     width: 100%;
     min-width: 100%;
+    border: gray 1px solid;
     text-align: justify;
 }
 
 .datostabla thead tr {
-    background-color: #2732d1;
-    color: #000000;
+    background-color: #2D4263;
+    color: white;
     text-align: center;
     border: rgb(0, 0, 0) 1px solid;
 }
@@ -326,7 +326,7 @@ body {
     font-size: 100%;
     width: auto;
     min-width: auto;
-
+    border: gray 1px solid;
 
 }
 
@@ -339,7 +339,7 @@ body {
 }
 
 #datostabla2 thead tr {
-    background-color: #2732d1;
+    background-color: #2D4263;
     color: #000000;
     text-align: center;
     border: rgb(0, 0, 0) 1px solid;
@@ -369,7 +369,7 @@ body {
     margin: 20px;
     color: #FFFCFC;
     font-size: 20px;
-    background: #1bafd4fb;
+    background: #C84B31;
     border-radius: 10px;
 }
 
@@ -408,7 +408,7 @@ body {
 
 
     #main {
-        background-color: #616161;;
+        
         transition: margin-left .5s;
         margin-left: 0px;
     }
@@ -444,7 +444,7 @@ body {
     }
 
     #main {
-        background-color: #616161;;
+        
         transition: margin-left .5s;
         margin-left: 0px;
     }
